@@ -1,0 +1,18 @@
+.barraFundo{
+    width: 140px;
+    height: 18px;
+
+    background-color: grey;
+
+    border-radius: 9px;
+
+    overflow: hidden;
+}
+
+.barra-preenchimento{
+    height: 100%;
+    width: 0%;
+
+    background: green;
+    transition: width 0.2s ease;
+}
