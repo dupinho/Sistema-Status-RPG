@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,23 +18,23 @@
         <div id="barra-forca" class="barra-preenchimento"></div>
     </div>
 
-    <button onclick="">-</button>
-    <button onclick="btn-mais">+</button>
+    <button onclick="alterar('forca', -1)">-</button>
+    <button class="btn-mais" onclick="alterar('forca', 1)">+</button>
 
     <p>Destreza: <b id="val-destreza">0</b></p>
     <div class="barra-fundo">
         <div id="barra-destreza" class="barra-preenchimento"></div>
     </div>
 
-    <button onclick="">-</button>
-    <button onclick="btn-mais">+</button>
+    <button onclick="alterar('destreza', -1)">-</button>
+    <button class="btn-mais" onclick="alterar('destreza', 1)">+</button>
 
     <p>Intelecto: <b id="val-intelecto">0</b></p>
     <div class="barra-fundo">
         <div id="barra-intelecto" class="barra-preenchimento"></div>
     </div>
 
-    <button onclick="">-</button>
-    <button onclick="btn-mais">+</button>
+    <button onclick="alterar('intelecto', -1)">-</button>
+    <button class="btn-mais" onclick="alterar('intelecto', 1)">+</button>
 </body>
 </html>
